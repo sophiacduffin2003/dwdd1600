@@ -1,0 +1,109 @@
+body {
+    font-family: 'new-hero', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+}
+/* Header Stuff Here*/
+header {
+    background-color:#F55D3E;
+    padding: 1rem 2vw;
+    
+
+}
+header h1{
+    margin: 0;
+    color: #191923;
+    letter-spacing: 2px;
+}
+header p {
+    margin: 0;
+    color: #191923;
+}
+/* nav stuff goes here */
+nav{
+   background-color: #FCB1E0; 
+}
+nav ul{
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+}
+nav a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #191923;
+    font-weight: 700; 
+    display: block;
+    padding: 0.95rem 2rem;
+}
+nav li.active a {
+    background-color:  #191923; 
+    color: #FCB1E0;
+}
+nav a:hover {
+    color: #eee;
+}
+/* stuff for the main*/
+main {
+    padding: 1rem 2vw;
+}
+main h1 {
+    color: #6E0D25;
+}
+main h2 {
+    color: #191923;
+    margin-bottom: .2rem;
+}
+main p {
+    color: #191923;
+    margin: 0 0 .3rem 0;
+}
+main ol {
+    padding: .5rem 3vw;
+    width: 12.5rem;
+    background-color: #F55D3E;
+}
+main dl dt {
+    color: #6E0D25;
+    font-weight: 700;
+}
+main dl dd {
+    color: #191923;
+    font-size: .9rem;
+    line-height: 125%;
+}
+main ul{
+    list-style-type:circle;
+}
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+main address{
+    font-style: normal;
+    background-color: #FCB1E0;
+    padding: .5rem;
+    width: 12.5rem;
+    border: 1px solid #191923;
+    border-radius: 5px;
+}
+main a {
+    color: #191923;   
+}
+main a:hover {
+    color: rgb(239,0,24);
+}
+/* footer stuff here */
+footer {
+    background-color: #F55D3E;
+    text-align: center;
+    color: #191923;
+    padding: 1rem 0;
+    font-size: .8rem;
+}
+footer a {
+    color: #191923;
+}
